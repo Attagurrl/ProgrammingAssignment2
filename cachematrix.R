@@ -1,5 +1,6 @@
-## This code solves caches the inverse of a matrix instead of freshly computing it everytime, saving a lot of R's computational time.
-## If the inverse has already been calculated (and the matrix has not changed), then the cachesolve retrieves the inverse from the first function.
+## This code solves for the inverse of a square matrix and caches the result. This could come in handy by saving a lot of computational time incase of large datasets.
+## The "makeCasheMatrix" function gets/sets the matrix and its inverse.
+## Incase the inverse has already been calculated (and the matrix has not changed), then the "cacheSolve" function retrieves the inverse from the first function.
 
 ## This function creates a special "matrix" object that can cache its inverse
 
